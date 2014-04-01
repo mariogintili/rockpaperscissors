@@ -52,3 +52,18 @@ Game.prototype.randomPick = function() {
   var solutions = ['spock', 'paper', 'scissors', 'rock', 'lizard']
   return solutions[Math.floor(Math.random() * solutions.length)];
 }
+
+Game.prototype.whoWonMessage = function () {
+  if(!this.winner()) return '';
+  return this.winner() === this.player1 ? 'You Win!' : 'You lose!';
+
+  // if(this.winner() === this.player1) {
+  //   return 'You Win!';
+  // }
+  // else if(this.winningMessage() === 'Draw') {
+  //   return '';
+  // }
+  // else {
+  //   return 'You lose!';
+  // }
+}

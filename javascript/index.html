@@ -2,19 +2,39 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/application.css"> 
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:400,700" media="screen" rel="stylesheet" type="text/css">
     <title>Rock Paper Scissors Lizard Spock</title>
   </head>
   <body>
-    <h1>Rock Paper Scissors Lizard Spock</h1>
-    <div class='choices'>
-      <img src="images/rock.png" data-pick="rock">
-      <img src="images/paper.png" data-pick="paper">
-      <img src="images/scissors.png" data-pick="scissors">
-      <img src="images/lizard.png" data-pick="lizard">
-      <img src="images/spock.png" data-pick="spock">
+    <div class="overlay">
+      <div id="message"></div>
     </div>
-    <div id="results"></div>
-
+      
+    <h1>Rock Paper Scissors Lizard Spock</h1>
+    <br>
+    <div class='choices'>
+      <div class="imageContainer" data-pick="rock">
+         <img src="images/rock.png">
+         <h2>Rock</h2>
+      </div>
+      <div class="imageContainer" data-pick="paper">
+        <img class ='drop' src="images/paper.png">
+         <h2>Paper</h2>
+      </div>
+      <div class="imageContainer" data-pick="scissors">
+        <img src="images/scissors.png">
+         <h2>Scissors</h2>
+      </div>
+      <div class="imageContainer" data-pick="lizard">  
+        <img class ='drop' src="images/lizard.png">
+         <h2>Lizard</h2>
+      </div>
+      <div class="imageContainer" data-pick="spock">
+        <img src="images/spock.png">
+         <h2>Spock</h2>
+      </div>
+    </div>
+    <br>
     <script src='lib/Player.js'></script>
     <script src='lib/Game.js'></script>
     <script src='http://code.jquery.com/jquery-2.1.0.min.js'></script> 

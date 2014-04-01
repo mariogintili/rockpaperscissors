@@ -18,20 +18,6 @@
     <script src='lib/Player.js'></script>
     <script src='lib/Game.js'></script>
     <script src='http://code.jquery.com/jquery-2.1.0.min.js'></script> 
-    <script>
-      $(document).ready(function(){
-        var p1 = new Player('Human');
-        var p2 = new Player('Computer');
-        var game = new Game(p1, p2);
-
-        $('.choices img').on('click', function(){
-          p1.picks($(this).data('pick'));
-          p2.picks('spock');
-
-          var latestResult = $('<li>' + game.winningMessage() + '</li>');
-          $('#results').append(latestResult);
-        });
-      })
-    </script>
+    <script src='lib/interactive.js'> </script>
   </body>
 </html>

@@ -7,7 +7,6 @@ $(document).ready(function(){
     p1.picks($(this).data('pick'));
     p2.picks('spock');
 
-    var latestResult = $('<li>' + game.winningMessage() + '</li>');
-    $('#results').append(latestResult);
+    $('#results').html(game.winningMessage());
   });
 })

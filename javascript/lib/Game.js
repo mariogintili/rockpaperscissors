@@ -47,3 +47,8 @@ Game.prototype._victoryVerbFor = function(pick, opponentPick) {
 Game.prototype._isSamePick = function() {
   return this.player1.pick === this.player2.pick;
 }
+
+Game.prototype.randomPick = function() {
+  var solutions = ['spock', 'paper', 'scissors', 'rock', 'lizard']
+  return solutions[Math.floor(Math.random() * solutions.length)];
+}

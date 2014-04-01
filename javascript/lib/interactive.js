@@ -5,8 +5,7 @@ $(document).ready(function(){
 
   $('.choices img').on('click', function(){
     p1.picks($(this).data('pick'));
-    p2.picks('spock');
-
+    p2.picks(game.randomPick());
     $('#results').html(game.winningMessage());
   });
 })

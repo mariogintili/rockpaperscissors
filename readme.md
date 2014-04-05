@@ -1,4 +1,3 @@
-## Rock Paper Scissors Lizard Spock
 
 It's an expansion of the classic selection
 method game rock-paper-scissors. It operates on the same basic principle, but
@@ -18,5 +17,5 @@ The game can be played [here](http://rpsls-mario.herokuapp.com/)
 
 #### Issues to be resolved
 
-* Cursor does not fade away when the cursor is hovering of **h2**
+* Cursor does not fade away when the cursor is hovering on **h2**
 * Front-end could be better

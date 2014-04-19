@@ -1,6 +1,6 @@
 ## Rock-Paper-Scissors-Lizard-Spock
 
-![](public/images/game.png)
+![](public/images/dashboard.png)
 
 It's an expansion of the classic selection
 method game rock-paper-scissors. It operates on the same basic principle, but
@@ -15,8 +15,8 @@ with a flash message - not lasting more than 3 seconds - with the result of the 
 This is accomplished by a div that covers the entire page but lies underneath everything by default. So everytime
 a player makes a pick the css attribute changes briefly covering the entire browsers with 3 possible options: winning, loosing or drawing.
 
-This task was assigned to us by [@alexpeattie](https://github.com/alexpeattie) it's week 7 at Makers Academy,
-and we've been introduced to Javascript for the first time. Our stack:
+This task was assigned to us by [@alexpeattie](https://github.com/alexpeattie) on week 7 at Makers Academy,
+it's my first time using JS. The stack:
 
 * Javascript, using jQuery
 * Ruby

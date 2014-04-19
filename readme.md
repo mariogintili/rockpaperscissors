@@ -24,7 +24,7 @@ it's my first time using JS. The stack:
 * Git version control
 * Test-driven-development with RSpec and Jasmin.
 
-The game can be played [here](http://rpsls-mario.herokuapp.com/)
+# You can play it [here](http://rpsls-mario.herokuapp.com/)
 
 #### Issues to be resolved
 

@@ -28,4 +28,4 @@ it's my first time using JS. The stack:
 
 * Cursor does not fade away when the cursor is hovering on the text on any of the images
 
-# You can play [here](http://rpsls-mario.herokuapp.com/)
+# You can play it [here](http://rpsls-mario.herokuapp.com/)
